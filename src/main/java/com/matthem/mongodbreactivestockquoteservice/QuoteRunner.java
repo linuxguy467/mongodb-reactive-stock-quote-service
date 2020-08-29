@@ -3,10 +3,9 @@ package com.matthem.mongodbreactivestockquoteservice;
 import com.matthem.mongodbreactivestockquoteservice.client.StockQuoteClient;
 import com.matthem.mongodbreactivestockquoteservice.domain.Quote;
 import org.springframework.boot.CommandLineRunner;
-import org.springframework.stereotype.Component;
 import reactor.core.publisher.Flux;
 
-@Component
+//@Component
 public class QuoteRunner implements CommandLineRunner {
   private final StockQuoteClient stockQuoteClient;
 
